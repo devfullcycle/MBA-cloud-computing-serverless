@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Class-Path:  lib/io.quarkus.quarkus-amazon-lambda-3.10.0.jar lib/io.quar
+ kus.quarkus-amazon-lambda-common-3.10.0.jar lib/com.amazonaws.aws-lambd
+ a-java-core-1.2.3.jar lib/com.amazonaws.aws-lambda-java-events-3.11.4.j
+ ar lib/io.quarkus.quarkus-jackson-3.10.0.jar lib/com.fasterxml.jackson.
+ core.jackson-databind-2.17.0.jar lib/net.bytebuddy.byte-buddy-1.14.11.j
+ ar lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.17.0.ja
+ r lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.17.0.jar l
+ ib/com.fasterxml.jackson.module.jackson-module-parameter-names-2.17.0.j
+ ar lib/com.fasterxml.jackson.datatype.jackson-datatype-joda-2.17.0.jar 
+ lib/com.fasterxml.jackson.core.jackson-annotations-2.17.0.jar lib/com.f
+ asterxml.jackson.core.jackson-core-2.17.0.jar lib/joda-time.joda-time-2
+ .10.14.jar lib/io.quarkus.quarkus-arc-3.10.0.jar lib/io.quarkus.arc.arc
+ -3.10.0.jar lib/jakarta.enterprise.jakarta.enterprise.cdi-api-4.0.1.jar
+  lib/jakarta.enterprise.jakarta.enterprise.lang-model-4.0.1.jar lib/jak
+ arta.el.jakarta.el-api-5.0.1.jar lib/jakarta.interceptor.jakarta.interc
+ eptor-api-2.1.0.jar lib/jakarta.annotation.jakarta.annotation-api-2.1.1
+ .jar lib/jakarta.transaction.jakarta.transaction-api-2.0.1.jar lib/io.s
+ mallrye.reactive.mutiny-2.6.0.jar lib/io.smallrye.common.smallrye-commo
+ n-annotation-2.3.0.jar lib/org.jctools.jctools-core-4.0.3.jar lib/org.j
+ boss.logging.jboss-logging-3.5.3.Final.jar lib/io.quarkus.quarkus-core-
+ 3.10.0.jar lib/jakarta.inject.jakarta.inject-api-2.0.1.jar lib/io.small
+ rye.common.smallrye-common-os-2.3.0.jar lib/io.quarkus.quarkus-developm
+ ent-mode-spi-3.10.0.jar lib/io.smallrye.config.smallrye-config-3.7.1.ja
+ r lib/io.smallrye.config.smallrye-config-core-3.7.1.jar lib/org.eclipse
+ .microprofile.config.microprofile-config-api-3.0.3.jar lib/io.smallrye.
+ common.smallrye-common-classloader-2.3.0.jar lib/io.smallrye.config.sma
+ llrye-config-common-3.7.1.jar lib/org.jboss.logmanager.jboss-logmanager
+ -3.0.4.Final.jar lib/io.smallrye.common.smallrye-common-constraint-2.3.
+ 0.jar lib/io.smallrye.common.smallrye-common-cpu-2.3.0.jar lib/io.small
+ rye.common.smallrye-common-expression-2.3.0.jar lib/io.smallrye.common.
+ smallrye-common-function-2.3.0.jar lib/io.smallrye.common.smallrye-comm
+ on-net-2.3.0.jar lib/io.smallrye.common.smallrye-common-ref-2.3.0.jar l
+ ib/jakarta.json.jakarta.json-api-2.1.3.jar lib/org.eclipse.parsson.pars
+ son-1.1.5.jar lib/org.jboss.logging.jboss-logging-annotations-2.2.1.Fin
+ al.jar lib/org.jboss.threads.jboss-threads-3.6.1.Final.jar lib/org.slf4
+ j.slf4j-api-2.0.6.jar lib/org.jboss.slf4j.slf4j-jboss-logmanager-2.0.0.
+ Final.jar lib/org.wildfly.common.wildfly-common-1.7.0.Final.jar lib/io.
+ quarkus.quarkus-bootstrap-runner-3.10.0.jar lib/io.smallrye.common.smal
+ lrye-common-io-2.3.0.jar lib/io.github.crac.org-crac-0.1.3.jar lib/io.q
+ uarkus.quarkus-fs-util-0.0.10.jar lib/org.eclipse.microprofile.context-
+ propagation.microprofile-context-propagation-api-1.3.jar lib/software.a
+ mazon.awssdk.s3-2.25.50.jar lib/software.amazon.awssdk.aws-xml-protocol
+ -2.25.50.jar lib/software.amazon.awssdk.protocol-core-2.25.50.jar lib/s
+ oftware.amazon.awssdk.arns-2.25.50.jar lib/software.amazon.awssdk.profi
+ les-2.25.50.jar lib/software.amazon.awssdk.crt-core-2.25.50.jar lib/sof
+ tware.amazon.awssdk.http-auth-2.25.50.jar lib/software.amazon.awssdk.id
+ entity-spi-2.25.50.jar lib/software.amazon.awssdk.http-auth-spi-2.25.50
+ .jar lib/org.reactivestreams.reactive-streams-1.0.4.jar lib/software.am
+ azon.awssdk.http-auth-aws-2.25.50.jar lib/software.amazon.awssdk.checks
+ ums-2.25.50.jar lib/software.amazon.awssdk.checksums-spi-2.25.50.jar li
+ b/software.amazon.awssdk.sdk-core-2.25.50.jar lib/software.amazon.awssd
+ k.auth-2.25.50.jar lib/software.amazon.eventstream.eventstream-1.0.1.ja
+ r lib/software.amazon.awssdk.http-client-spi-2.25.50.jar lib/software.a
+ mazon.awssdk.regions-2.25.50.jar lib/software.amazon.awssdk.annotations
+ -2.25.50.jar lib/software.amazon.awssdk.utils-2.25.50.jar lib/software.
+ amazon.awssdk.aws-core-2.25.50.jar lib/software.amazon.awssdk.metrics-s
+ pi-2.25.50.jar lib/software.amazon.awssdk.json-utils-2.25.50.jar lib/so
+ ftware.amazon.awssdk.third-party-jackson-core-2.25.50.jar lib/software.
+ amazon.awssdk.endpoints-spi-2.25.50.jar lib/software.amazon.awssdk.apac
+ he-client-2.25.50.jar lib/org.apache.httpcomponents.httpclient-4.5.14.j
+ ar lib/org.apache.httpcomponents.httpcore-4.4.16.jar lib/commons-codec.
+ commons-codec-1.16.1.jar lib/software.amazon.awssdk.netty-nio-client-2.
+ 25.50.jar lib/io.netty.netty-codec-http-4.1.108.Final.jar lib/io.netty.
+ netty-codec-http2-4.1.108.Final.jar lib/io.netty.netty-codec-4.1.108.Fi
+ nal.jar lib/io.netty.netty-transport-4.1.108.Final.jar lib/io.netty.net
+ ty-common-4.1.108.Final.jar lib/io.netty.netty-buffer-4.1.108.Final.jar
+  lib/io.netty.netty-handler-4.1.108.Final.jar lib/io.netty.netty-transp
+ ort-native-unix-common-4.1.108.Final.jar lib/io.netty.netty-transport-c
+ lasses-epoll-4.1.108.Final.jar lib/io.netty.netty-resolver-4.1.108.Fina
+ l.jar lib/software.amazon.awssdk.sqs-2.25.50.jar lib/software.amazon.aw
+ ssdk.aws-json-protocol-2.25.50.jar lib/software.amazon.awssdk.sns-2.25.
+ 50.jar lib/software.amazon.awssdk.aws-query-protocol-2.25.50.jar lib/co
+ mmons-logging.commons-logging-1.3.1.jar
+Main-Class: io.quarkus.runner.GeneratedMain
+Implementation-Title: lambda-s3
+Implementation-Version: 1.0.0-SNAPSHOT
+
